@@ -27,6 +27,7 @@ const handleEmitFromChild = (a, name, company) => {
 </script>
 <template>
   <header class="wrapper">
+    <h1>Vue 3 Lab</h1>
     <p>{{ count }}</p>
     <ChildComp msg="Hello Vue Js" @click-to-increase="handleEmitFromChild">
       <div>This is a child message. It replaces the slot of child component</div>
